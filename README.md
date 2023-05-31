@@ -3,10 +3,10 @@
 
 
 ## sortowania w kolejności:
-### - insert sort
-### - bubble sort 
-### - quick sort
-### - merge sort
+### - [insert sort](https://www.geeksforgeeks.org/insertion-sort/)
+### - [bubble sort](https://www.geeksforgeeks.org/bubble-sort/) 
+### - [quick sort](https://youtu.be/Vtckgz38QHs)
+### - [merge sort](https://youtu.be/LeWuki7AQLo)
 
 
 ## stuktury
