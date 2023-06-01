@@ -6,6 +6,7 @@
 //-wyświetl ją - print_array
 //-posortuj ją quick sortem
 //-wyświetl ją - print_array
+//wyszukaj binarnie 
 //wrzuć do stosu - pop i push do wyświetlenia
 
 struct stos {
@@ -18,6 +19,7 @@ void print_array(int *tab, int size);
 void quick_sort(int *tab, int startIndex, int endIndex);
 int partition(int *tab, int startIndex, int endIndex);
 void push(struct stos **top, int number);
+int binary_search(int *tab, int length, int number);
 int pop(struct stos **top);
 
 int main () {
@@ -31,6 +33,8 @@ int main () {
     printf("Sortowanie... \n");
     quick_sort(arr, 0, size -1);
     print_array(arr, size);
+
+    printf("%d \n", binary_search(arr, size, 3));
 
     struct stos *sztos = NULL;
     for(int i = 0; i < size; i++)
@@ -132,4 +136,20 @@ int pop(struct stos **top)
         free(temp);
         return value;
     }
+}
+
+int binary_search(int *tab, int length, int number)
+{
+    int startIndex = 0;
+    int endIndex = length -1;
+    while (startIndex <= endIndex) {
+    int mid = startIndex + (endIndex - startIndex) / 2;
+    if (tab[mid] == number)
+        return mid;
+    else if (tab[mid] < number)
+        startIndex = mid + 1;
+    else
+        endIndex = mid - 1;
+    }
+    return -1;
 }
