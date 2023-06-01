@@ -15,4 +15,4 @@
 
 ## wyszukiwanie 
 ### - binarne
-### - liniowe (chyba tak sie nazywa)
+### - liniowe (xddddddddddddddddd, na chłopski rozum)
