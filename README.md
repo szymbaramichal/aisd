@@ -1,5 +1,5 @@
 # **ścieżka nauki**
-## sortowania -> struktury -> wyszukiwanie (imo do skipa)
+## sortowania -> struktury -> wyszukiwanie
 
 
 ## sortowania w kolejności:
@@ -13,4 +13,6 @@
 ### - stos (pop, push)
 ### - listy dwukierunkowe 
 
-## wyszukiwanie skip/zobaczyć to co Agata wysyłała na dc
+## wyszukiwanie 
+### - binarne
+### - liniowe (chyba tak sie nazywa)
